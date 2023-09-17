@@ -29,7 +29,7 @@ Data Seeding: Run npm run seed to seed your database with initial data for testi
 
 Server Start: Start the server by running npm start. The Sequelize models will sync with the MySQL database.
 
-API Routes: Access the API routes using tools like Insomnia. Test GET, POST, PUT, and DELETE routes for categories, products, and tags. [WalkThrough Video Link here](https://drive.google.com/file/d/1zm5GZSdbgWjCd3GnxJEoNkL-A4LIAoL-/view?usp=sharing)
+API Routes: Access the API routes using tools like Insomnia. Test GET, POST, PUT, and DELETE routes for categories, products, and tags. [Walk Through Video Link here](https://drive.google.com/file/d/1zm5GZSdbgWjCd3GnxJEoNkL-A4LIAoL-/view?usp=sharing)
   ## Installation
 To install the required dependencies, run the following command:
 ```

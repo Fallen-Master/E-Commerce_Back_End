@@ -106,7 +106,7 @@ router.put('/:id', (req, res) => {
         });
       }
 
-      return res.json(product);
+      return res.json({message:'Product updated'});
     })
     .catch((err) => {
       // console.log(err);
@@ -127,7 +127,7 @@ router.delete('/:id', async (req, res) => {
       return;
     }
 
-    res.status(200).json(productData);
+    res.status(200).json({message:'Product deleted'});
   } catch (err) {
     console.log(err);
     res.status(500).json(err);

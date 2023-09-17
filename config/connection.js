@@ -1,12 +1,12 @@
 const sequelize = require('sequelize');
 require('dotenv').config();
 
-let sequelize = null;
+let sequelizeInstance = null;
 
 if (process.env.JAWSDB_URL){
-    sequelize = new Sequelize(process.env.JAWSDB_URL)
+    sequelizeInstance = new sequelize(process.env.JAWSDB_URL)
 } else {
-    sequelize = new Sequelize(
+    sequelizeInstance = new sequelize(
         process.env.DB_NAME,
         process.env.DB_USER,
         process.env.DB_PASSWORD,
@@ -18,4 +18,4 @@ if (process.env.JAWSDB_URL){
     );
 }
 
-module.exports = sequelize
+module.exports = sequelizeInstance
